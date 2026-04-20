@@ -1,0 +1,29 @@
+{
+  "name": "clob-v2-validation-safe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "1:rpc":       "tsx 1_rpc.ts",
+    "2:allow":     "tsx 2_allowances.ts",
+    "3:wrap":      "tsx 3_wrap.ts",
+    "4:init":      "tsx 4_init_clob.ts",
+    "5:buy":       "tsx 5_limit_buy_order.ts",
+    "6:mbuy":      "tsx 6_market_buy_order.ts",
+    "7:msell":     "tsx 7_market_sell_order.ts",
+    "8:split":     "tsx 8_split.ts",
+    "9:sell":      "tsx 9_limit_sell.ts",
+    "10:merge":    "tsx 10_merge.ts",
+    "11:offramp":  "tsx 11_offramp.ts"
+  },
+  "dependencies": {
+    "@polymarket/clob-client-v2": "1.0.0",
+    "dotenv": "^16.0.0",
+    "viem": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
